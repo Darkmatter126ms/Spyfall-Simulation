@@ -82,3 +82,7 @@ spyfall/
 ├── docker-compose.yml
 └── README.md
 ```
+
+## Non-host version
+
+The non-host version is simplier to use, simply run the code in an IDE and play! No hosting required. Enjoy the game with your family and friends while the internet is down :)
