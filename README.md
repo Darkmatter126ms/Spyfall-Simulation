@@ -6,11 +6,11 @@ A web-based multiplayer Spyfall game where each player uses their own device.
 
 1. One player **creates a room** and shares the 6-character room code
 2. Other players **join** using the code on their own phones/tablets/laptops
-3. The host **starts the game** — each player privately sees their role on their own screen
+3. The host **starts the game** and each player privately sees their role on their own screen
 4. One random player is the **Spy** (they don't know the location)
 5. Players take turns asking each other questions to find the spy
 6. The spy tries to figure out the location without being caught
-7. When ready, the host calls a **vote** — everyone picks who they think is the spy
+7. When ready, the host calls a **vote** and everyone picks who they think is the spy
 8. If the spy is caught, they get **2 guesses** to name the location and still win
 
 ## Features
@@ -20,7 +20,7 @@ A web-based multiplayer Spyfall game where each player uses their own device.
 - **Per-player notes**: Every player gets a private notepad with a section for each other player
 - **Timer**: Host can start/pause a configurable round timer
 - **Reconnection**: If a player disconnects, they can rejoin with the same name
-- **CSV locations**: Locations and roles are loaded from `locations.csv` — easy to edit without touching code
+- **CSV locations**: Locations and roles are loaded from `locations.csv`, easy to edit without touching code
 - **Docker ready**: One command to build and run
 
 ## Quick Start
@@ -56,7 +56,7 @@ For internet access, you can:
 
 1. **Reverse proxy** (nginx/Caddy) + port forwarding on your router
 2. **Cloud VM** (DigitalOcean, AWS, etc.) — just run the Docker container
-3. **Tunneling** — `ngrok http 5000` or `cloudflared tunnel` for quick sharing
+3. **Tunneling**: `ngrok http 5000` or `cloudflared tunnel` for quick sharing
 
 ## Editing Locations
 
@@ -73,12 +73,12 @@ The roles column is comma-separated inside quotes. The server loads this file on
 
 ```
 spyfall/
-├── app.py                 # Flask + SocketIO server
+├── app.py                 # Flask + SocketIO server backend
 ├── locations.csv          # Location and role data
 ├── templates/
 │   └── index.html         # Single-page frontend
 ├── requirements.txt
-├── Dockerfile
+├── Dockerfile             
 ├── docker-compose.yml
 └── README.md
 ```
