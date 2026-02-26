@@ -57,7 +57,7 @@ LOCATION_ROLES = {
     "Fire Station": ["Firefighter", "Dispatcher", "Fire Chief", "EMT", "Fire Inspector", "Trainee"],
     "Prison": ["Warden", "Guard", "Inmate", "Lawyer", "Social Worker", "Parole Officer"],
     "Laboratory": ["Research Scientist", "Lab Technician", "Principal Investigator", "Safety Officer", "Intern", "Visitor"],
-    "Nightclub": ["DJ", "Bouncer", "Bartender", "Clubber", "Manager", "Photographer","Bartender"],
+    "Nightclub": ["DJ", "Bouncer", "Clubber", "Manager", "Photographer","Bartender"],
     "Museum": ["Curator", "Tour Guide", "Security Guard", "Visitor", "Conservator", "Donor"],
     "Bakery": ["Baker", "Pastry Chef", "Cashier", "Customer", "Delivery Driver", "Owner"],
     "Construction Site": ["Site Manager", "Crane Operator", "Electrician", "Architect", "Inspector", "Laborer"],
@@ -481,3 +481,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
