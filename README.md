@@ -55,7 +55,7 @@ Players on the same Wi-Fi can connect using your machine's local IP (e.g. `http:
 For internet access, you can:
 
 1. **Reverse proxy** (nginx/Caddy) + port forwarding on your router
-2. **Cloud VM** (DigitalOcean, AWS, etc.) — just run the Docker container
+2. **Cloud VM** (DigitalOcean, AWS, etc.): just run the Docker container
 3. **Tunneling**: `ngrok http 5000` or `cloudflared tunnel` for quick sharing
 
 ## Editing Locations
