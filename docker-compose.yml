@@ -1,0 +1,11 @@
+services:
+  spyfall:
+    build: .
+    ports:
+      - "5000:5000"
+    environment:
+      - PORT=5000
+    restart: unless-stopped
+    # Mount locations.csv so you can edit it without rebuilding
+    volumes:
+      - ./locations.csv:/app/locations.csv:ro
