@@ -1,5 +1,4 @@
-# Spyfall-Simulation
-# Spyfall – Multiplayer Web Edition
+# Spyfall: Multiplayer Web Edition
 
 A web-based multiplayer Spyfall game where each player uses their own device.
 
