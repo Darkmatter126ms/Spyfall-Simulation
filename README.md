@@ -1,6 +1,6 @@
 # Spyfall: Multiplayer Web Edition
 
-A web-based multiplayer Spyfall game where each player uses their own device.
+A web-based multiplayer Spyfall game where each player uses their own device to participate in the game. Anytime, Anywhere.
 
 ## How to Play
 
